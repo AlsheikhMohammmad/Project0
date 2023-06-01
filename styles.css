@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Google logo styles */
+  #logo {
+    display: block;
+    margin: 225px auto 32px;
+    background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+    background-repeat: no-repeat;
+    width: 272px;
+    height: 92px;
+  }
+
+  #image-logo {
+    display: block;
+    margin: 259px auto 32px;
+    background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+    background-repeat: no-repeat;
+    width: 272px;
+    height: 92px;
+  }
+
+  .T8VaVe {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+  /* Search box styles */
+  #search-box {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  #search-input {
+    padding: 8px;
+    width: 500px;
+    max-width: 90%;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 15px;
+    outline: none;
+  }
+
+  /* Search buttons container */
+  #search-buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Search button styles */
+  .search-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    margin: 0 8px;
+  }
+
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 64px;
+    color: #555;
+  }
+.pages{
+    text-align: right; 
+    display:block;
+}
