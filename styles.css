@@ -7,7 +7,7 @@ body, html {
   /* Google logo styles */
   #logo {
     display: block;
-    margin: 225px auto 32px;
+    margin: 218px auto 32px;
     background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
     background-repeat: no-repeat;
     width: 272px;
@@ -16,22 +16,33 @@ body, html {
 
   #image-logo {
     display: block;
-    margin: 259px auto 32px;
+    margin: 235px auto 32px;
     background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
     background-repeat: no-repeat;
     width: 272px;
     height: 92px;
   }
-
-  .T8VaVe {
+span{
     color: #4285f4;
-    font: 16px/16px roboto-regular, arial, sans-serif;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: roboto-regular, arial, sans-serif;
     position: absolute;
-    left: 215px;
-    bottom: 0;
-    white-space: nowrap;
+    left: 558px;
+    top: 327px;
 }
-
   /* Search box styles */
   #search-box {
     text-align: center;
@@ -64,6 +75,10 @@ body, html {
     background-color: #f2f2f2;
     cursor: pointer;
     margin: 0 8px;
+  }
+
+  .search-button:hover{
+    box-shadow: 20px;
   }
 
   /* Footer styles */
