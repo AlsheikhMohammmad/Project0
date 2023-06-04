@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="advancedStyles.css">
     </head>
     <body>
-        <div>
-            <a href="index.html">Back</a>
+        <a class="pages" href="index.html">Google Search</a>
+        <div class="header">
+            <label id="bar" style="margin-left:10px"> Advanced Search</label>
+        </div> 
+        <div class="container">
+            <form action="https://www.google.com/search" method="GET">
+                <div class="form-row">
+                    <label for="all-words">All these words:</label>
+                    <input type="text" name="as_q" id="all-words" placeholder="Enter keywords">
+                </div>
+
+                <div class="form-row">
+                    <label for="exact-phrase">Exact phrase:</label>
+                    <input type="text" name="as_epq" id="exact-phrase" placeholder="Enter phrase">
+                </div>
+
+                <div class="form-row">
+                    <label for="any-words">Any of these words:</label>
+                    <input type="text" name="as_oq" id="any-words" placeholder="Enter keywords">
+                </div>
+
+                <div class="form-row">
+                    <label for="none-words">None of these words:</label>
+                    <input type="text" name="as_eq" id="none-words" placeholder="Enter keywords">
+                </div>
+                <div class="form-row">
+                    <input type="submit" value="Advanced Search">
+                </div>
+            </form>
         </div>
     </body>
 </html>
